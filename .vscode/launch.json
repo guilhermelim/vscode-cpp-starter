@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug (g++)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/vscode-cpp-starter.exe", // Altere para o caminho do seu executável
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "ignoreFailures": true,
+          "text": "-enable-pretty-printing"
+        }
+      ],
+      "preLaunchTask": "CMake: Build", // Ajuste para "CMake: Build (Release)" se necessário
+      "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.formatting": "default",
+  "cmake.options.statusBarVisibility": "compact",
+  "cmake.configureOnOpen": true,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "files.associations": {
+    "ostream": "cpp",
+    "iostream": "cpp"
+  }
+}

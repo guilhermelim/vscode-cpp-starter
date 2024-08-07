@@ -1,0 +1,29 @@
+# Ignorar arquivos e pastas gerados pelo CMake
+/build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Ignorar binários e arquivos de construção
+*.exe
+*.out
+*.a
+*.o
+*.obj
+*.dll
+*.lib
+*.pdb
+
+# Ignorar arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignorar arquivos e diretórios específicos do sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
