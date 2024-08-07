@@ -51,7 +51,7 @@ vscode-cpp-starter/
    - Na paleta de comandos (`Ctrl+Shift+P`), selecione `CMake: Configure`.
 
 2. **Compile o Projeto**:
-   - Na paleta de comandos (`Ctrl+Shift+P`), selecione `CMake: Build`.
+   - Na paleta de comandos (`Ctrl+Shift+P`), selecione `CMake: Build` ou pressione `F7`.
 
 3. **Execute o Projeto**:
    - Vá para o painel de depuração (`Ctrl+Shift+D`), selecione a configuração `Debug (g++)` e clique no botão verde de play ou pressione `F5`.
