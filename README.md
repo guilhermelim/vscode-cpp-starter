@@ -41,7 +41,9 @@ vscode-cpp-starter/
    - Adicione o diretório do MSYS2 ao PATH do Windows. Isso pode ser feito em `Configurações do Sistema > Avançado > Variáveis de Ambiente`:
 
      ```
+     C:\msys64\mingw64
      C:\msys64\mingw64\bin
+     C:\msys64\usr\bin
      ```
 
 ## Compilação e Execução
